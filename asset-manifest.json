@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/test-deploy/static/css/main.ed7b46be.css",
+    "main.js": "/test-deploy/static/js/main.c257c39b.js",
+    "static/js/453.08dbcda6.chunk.js": "/test-deploy/static/js/453.08dbcda6.chunk.js",
+    "static/media/LongCang-Regular.ttf": "/test-deploy/static/media/LongCang-Regular.a52ade663d4d7497d58a.ttf",
+    "static/media/Boost_Feastables.svg": "/test-deploy/static/media/Boost_Feastables.72c2803c5ad820835430bf6528f38b23.svg",
+    "static/media/Boost_YouPoop.svg": "/test-deploy/static/media/Boost_YouPoop.b5ad3d97737fc9cae138337e419ce9e1.svg",
+    "static/media/Boost_Cool.svg": "/test-deploy/static/media/Boost_Cool.bd973fdbaa9c3df438959937830d1f78.svg",
+    "static/media/doggy.svg": "/test-deploy/static/media/doggy.54f8b5075a57e5c465b3b0a17ec97758.svg",
+    "static/media/MrBoostWithMoney_Small.svg": "/test-deploy/static/media/MrBoostWithMoney_Small.e44c9752382d05be4d7b.svg",
+    "static/media/MrBoostWithMoney.svg": "/test-deploy/static/media/MrBoostWithMoney.6752e3cd0186dfcb237a.svg",
+    "static/media/Money.svg": "/test-deploy/static/media/Money.d2de13232bb179986f94eb5e66839dc0.svg",
+    "static/media/Money_small.svg": "/test-deploy/static/media/Money_small.0ff3500c2e07fbff3f30bd8daf99563e.svg",
+    "static/media/MrBoost.svg": "/test-deploy/static/media/MrBoost.eaa78d462ec359a4b90f9fc091788433.svg",
+    "static/media/JustMeAgainDownHere.ttf": "/test-deploy/static/media/JustMeAgainDownHere.168d658bc8687bc6ce55.ttf",
+    "static/media/Unknown.svg": "/test-deploy/static/media/Unknown.0ada85e6d71e9ec61100ce2445dd2671.svg",
+    "static/media/Unknown_small.svg": "/test-deploy/static/media/Unknown_small.0a8f75b602666bcaa50a9ea48e7d40e2.svg",
+    "static/media/Telega.svg": "/test-deploy/static/media/Telega.82ae71c0702dd61efe60dddbf11e0252.svg",
+    "static/media/Telega_small.svg": "/test-deploy/static/media/Telega_small.4d7f689c00859fb350abcdedfb2ccb66.svg",
+    "static/media/Twit.svg": "/test-deploy/static/media/Twit.544a6eb02bceeb18909fe390e0a8fc5d.svg",
+    "static/media/Twit_small.svg": "/test-deploy/static/media/Twit_small.987f8d0a3a387601d2ab342bd99007e1.svg",
+    "static/media/YouPoop.svg": "/test-deploy/static/media/YouPoop.bccbfd45ba0674e86bc6fe7f50987136.svg",
+    "index.html": "/test-deploy/index.html",
+    "main.ed7b46be.css.map": "/test-deploy/static/css/main.ed7b46be.css.map",
+    "main.c257c39b.js.map": "/test-deploy/static/js/main.c257c39b.js.map",
+    "453.08dbcda6.chunk.js.map": "/test-deploy/static/js/453.08dbcda6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed7b46be.css",
+    "static/js/main.c257c39b.js"
+  ]
+}
