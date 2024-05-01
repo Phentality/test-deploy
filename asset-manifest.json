@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/test-deploy/static/css/main.ed7b46be.css",
-    "main.js": "/test-deploy/static/js/main.c257c39b.js",
+    "main.js": "/test-deploy/static/js/main.87b3d5d7.js",
     "static/js/453.08dbcda6.chunk.js": "/test-deploy/static/js/453.08dbcda6.chunk.js",
     "static/media/LongCang-Regular.ttf": "/test-deploy/static/media/LongCang-Regular.a52ade663d4d7497d58a.ttf",
     "static/media/Boost_Feastables.svg": "/test-deploy/static/media/Boost_Feastables.72c2803c5ad820835430bf6528f38b23.svg",
@@ -23,11 +23,11 @@
     "static/media/YouPoop.svg": "/test-deploy/static/media/YouPoop.bccbfd45ba0674e86bc6fe7f50987136.svg",
     "index.html": "/test-deploy/index.html",
     "main.ed7b46be.css.map": "/test-deploy/static/css/main.ed7b46be.css.map",
-    "main.c257c39b.js.map": "/test-deploy/static/js/main.c257c39b.js.map",
+    "main.87b3d5d7.js.map": "/test-deploy/static/js/main.87b3d5d7.js.map",
     "453.08dbcda6.chunk.js.map": "/test-deploy/static/js/453.08dbcda6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ed7b46be.css",
-    "static/js/main.c257c39b.js"
+    "static/js/main.87b3d5d7.js"
   ]
 }
