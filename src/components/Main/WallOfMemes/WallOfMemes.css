@@ -1,0 +1,63 @@
+.wall-of-memes {
+    max-width: 1440px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 24px auto 0;
+}
+
+.wall-of-memes__image {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto 0;
+}
+
+.wall-of-memes:last-of-type {
+    margin: 0 auto 78px;
+}
+
+.wall-of-memes__image-container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto 78px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.wall-of-memes__small-image {
+    max-width: 626px;
+    width: 100%;
+}
+
+@media (min-width: 1px) and (max-width: 430px) {
+    .wall-of-memes {
+        max-width: 430px;
+        margin: 0;
+    }
+    
+    .wall-of-memes__image {
+        max-width: 405px;
+        margin: 0 auto 0;
+    }
+    
+    .wall-of-memes:last-of-type {
+        margin: 0 auto 23px;
+    }
+    
+    .wall-of-memes__image-container {
+        max-width: 405px;
+        height: 650px;
+        margin: 0 auto 21px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    
+    .wall-of-memes__small-image {
+        display: block;
+        max-width: 626px;
+        width: 100%;
+    }
+}

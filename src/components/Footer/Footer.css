@@ -1,0 +1,31 @@
+.footer {
+    max-width: 1440px;
+    width: 100%;
+    font-family: 'JustMeAgainDownHere', Arial, sans-serif;
+    margin: 0 auto 0;
+    background-color: #000;
+    color: #FFF;
+    font-weight: 400;
+}
+
+.footer__text {
+    max-width: 1300px;
+    text-align: center;
+    font-size: 44px;
+    line-height: 65.91px;
+    margin: 0 auto;
+    padding: 56px 0;
+}
+
+@media (min-width: 1px) and (max-width: 430px) {
+    .footer {
+        max-width: 430px;
+    }
+    
+    .footer__text {
+        max-width: 359px;
+        font-size: 30px;
+        line-height: 44.94px;
+        padding: 37px 0;
+    }
+}

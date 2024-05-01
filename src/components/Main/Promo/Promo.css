@@ -1,0 +1,160 @@
+.promo {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 474px;
+    font-family: 'JustMeAgainDownHere', Arial, sans-serif;
+    margin: 0 auto 0;
+    background-color: #004AAD;
+    color: #FFF;
+    font-weight: 400;
+    background-image: url(../../../images/MrBoost.svg);
+    background-position: right 0px bottom 0px;
+    background-repeat: no-repeat;
+}
+
+.promo__container {
+    max-width: 807px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 85px 0 0 0;
+    margin: 0 429px 0 204px;
+}
+
+.promo__image {
+    width: 215px;
+    height: 169px;
+    margin: 47px 45px 0 0;
+}
+
+.promo__text-container {
+    max-width: 604px;
+    position: relative;
+}
+
+.promo__bold-text {
+    font-size: 144px;
+    line-height: 215.71px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    white-space: nowrap
+}
+
+.promo__text {
+    font-size: 76px;
+    position: absolute;
+    line-height: 113.85px;
+    text-align: center;
+    top: 64px;
+    left: 32px;
+}
+
+.promo__social-container {
+    max-width: 362px;
+    max-height: 61px;
+    width: 100%;
+    margin: 38px auto 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo__social-link {
+    max-width: 61px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 0;
+}
+
+.promo__social-link:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.promo__form {
+    padding: 0 0 44px;
+}
+
+.promo__input {
+    display: block;
+    max-width: 602px;
+    width: 100%;
+    height: 39px;
+    margin: 0 auto 0;
+    padding: 0;
+    background-color: #fff;
+    opacity: 0.3;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+}
+
+@media (min-width: 1px) and (max-width: 430px) {
+    .promo {
+        max-width: 430px;
+        min-height: 1px;
+        background-image: none;
+    }
+
+    .promo__container {
+        max-width: 338px;
+        margin: 0 auto 0;
+        padding: 55px 0 0 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .promo__image {
+        width: 68px;
+        height: 53px;
+        margin: 19px 15px 0 0;
+    }
+
+    .promo__text-container {
+        width: 188px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin: 0 10px 0 0;
+        padding: 0;
+    }
+
+    .promo__bold-text {
+        font-size: 51px;
+        line-height: 76.4px;
+    }
+
+    .promo__text {
+        position: absolute;
+        font-size: 30px;
+        line-height: 44.94px;
+        white-space: nowrap;
+        top: 24px;
+        left: -3px;
+    }
+
+    .promo__avatar {
+        width: 75px;
+        border-radius: 28px;
+        border: none;
+    }
+
+    .promo__social-container {
+        max-width: 219px;
+        max-height: 54px;
+        margin: 81px auto 27px;
+    }
+
+    .promo__social-link {
+        max-width: 54px;
+    }
+
+    .promo__form {
+        padding: 0 0 53px;
+    }
+    
+    .promo__input {
+        max-width: 338px;
+        font-size: 20px;
+    }
+}

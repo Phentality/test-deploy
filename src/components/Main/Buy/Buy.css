@@ -1,0 +1,136 @@
+.buy {
+    max-width: 1440px;
+    width: 100%;
+    font-family: 'JustMeAgainDownHere', Arial, sans-serif;
+    margin: 0 auto 0;
+    background-color: #004AAD;
+    color: #FFF;
+    font-weight: 400;
+    position: relative;
+}
+
+.buy__title {
+    font-size: 99px;
+    line-height: 148.3px;
+    margin: 0 0 0 102px;
+}
+
+.buy__image {
+    max-width: 219px;
+    width: 100%;
+    position: absolute;
+    top: -24px;
+    right: 0px;
+}
+
+.buy__text-container {
+    display: grid;
+    grid-template-columns: 420px 340px 373px;
+    grid-template-rows: 346px 240px;
+    margin: 0 auto 0;
+    padding: 0 0 0 102px;
+    gap: 0px 40px;
+    grid-template-areas:
+      "first second third"
+      "first fourth third";
+}
+
+.buy__card-first {
+    grid-area: first;
+}
+
+.buy__card-second {
+    grid-area: second;
+}
+
+.buy__card-third {
+    grid-area: third;
+}
+
+.buy__card-fourth {
+    grid-area: fourth;
+}
+
+.buy__card {
+    max-width: 451px;
+    list-style-type:  none;
+}
+
+.buy__card-title {
+    font-size: 44px;
+    line-height: 65.91px;
+    margin: 0;
+    padding: 0;
+}
+
+.buy__card-text {
+    font-family: 'LongCang', 'JustMeAgainDownHere', Arial, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.buy__link {
+    text-decoration: underline;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.buy__link:hover {
+    color: #000;
+}
+
+@media (min-width: 1px) and (max-width: 430px) {
+    .buy {
+        max-width: 430px;
+    }
+
+    .buy__title {
+        max-width: 384px;
+        font-size: 60px;
+        line-height: 89.88px;
+        margin: 0 auto 5px;
+        text-align: center;
+    }
+
+    .buy__image {
+        max-width: 70px;
+        width: 100%;
+        position: absolute;
+        top: -53px;
+        right: 0px;
+        overflow: hidden;
+    }
+
+    .buy__text-container {
+        display: grid;
+        grid-template-columns: 380px;
+        grid-template-rows: 380px 284px 350px 210px;
+        margin: 0 auto 0;
+        padding: 0 0 10px 35px;
+        gap: 0;
+        grid-template-areas:
+          "first"
+          "second"
+          "third"
+          "fourth";
+    }
+
+    .buy__card {
+        max-width: 380px;
+    }
+
+    .buy__card-title {
+        font-size: 38px;
+        line-height: 56.92px;
+        text-align: center;
+        margin: 0 0 17px 0;
+    }
+    
+    .buy__card-text {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}

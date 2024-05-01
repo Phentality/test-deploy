@@ -1,0 +1,98 @@
+.about-project {
+    max-width: 1440px;
+    width: 100%;
+    font-family: 'JustMeAgainDownHere', Arial, sans-serif;
+    margin: 0 auto 0;
+    background-color: #FFF;
+    color: #000;
+    font-weight: 400;
+}
+
+.about-project__container {
+    max-width: 1212px;
+    width: 100%;
+    margin: 0 72px 52px 156px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-project__image {
+    width: 310px;
+    height: 310px;
+    margin: 109px 0 0;
+    background-color: #004AAD;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-image: url(../../../images/MrBoostWithMoney.svg);
+    background-position: left 0px bottom 0px;
+    background-repeat: no-repeat;
+}
+
+.about-project__text-container {
+    max-width: 841px;
+    margin: 35px 0 0;
+}
+
+.about-project__title {
+    font-size: 83px;
+    margin: 0;
+    line-height: 124.33px;
+    text-align: center;
+}
+
+.about-project__text {
+    font-family: 'LongCang', 'JustMeAgainDownHere', Arial, sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 0;
+    text-align: center;
+}
+
+.about-project__link {
+    text-decoration: underline;
+    color: #000;
+}
+
+.about-project__link:hover {
+    color: #004AAD;
+}
+
+@media (min-width: 1px) and (max-width: 430px) {
+    .about-project {
+        max-width: 430px;
+        padding: 0;
+    }
+
+    .about-project__container {
+        max-width: 384px;
+        margin: 0 auto 58px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .about-project__image {
+        width: 134px;
+        height: 133px;
+        margin: 36px auto 0;
+        background-image: url(../../../images/MrBoostWithMoney_Small.svg);
+    }
+
+    .about-project__text-container {
+        max-width: 384px;
+        margin: 12px 0 0;
+    }
+
+    .about-project__title {
+        font-size: 60px;
+        margin: 0 auto 0;
+        line-height: 89.88px;
+    }
+
+    .about-project__text {
+        font-size: 25px;
+        line-height: 25px;
+        margin: 13px auto 0;
+    }
+}
